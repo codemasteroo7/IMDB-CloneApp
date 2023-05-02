@@ -1,0 +1,10 @@
+#movies-grid{
+    display: grid;
+    grid-template-columns: repeat(auto fil, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.movie-image {
+    width: 300px;
+    height: 450px;
+}
